@@ -1,0 +1,14 @@
+===< Instructions >===
+0: NUL
+1: ADD addr | acc = acc + ram[addr]
+2: NOT addr | acc = ! acc
+3: XOR addr | acc = acc ^ ram[addr]
+4: AND addr | acc = acc & ram[addr]
+5: OR  addr | acc = acc | ram[addr]
+6: GET addr | acc = ram[addr]
+8: SET addr | ram[addr] = acc
+9: JNZ addr | pl = ram[addr] if acc == 0
+
+acc = Accumulator, uint8
+pl = Program Location, uint16
+
